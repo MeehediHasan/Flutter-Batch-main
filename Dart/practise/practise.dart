@@ -68,7 +68,7 @@ The memory usage of a List depends on the number of elements and the size of eac
  ++ PREFIX : ++X it increment the value of operand
  ++ POSTFIX : z++, it return the actual value of operand before increment
  -- PREFIX : --x, it decrement the value of the operand
- --POSTFIX : x--, it returns the actual value of operand before decrement
+ POSTFIX-- : x--, it returns the actual value of operand before decrement
 
 ..........UNARY OPERATORS.....................
 
