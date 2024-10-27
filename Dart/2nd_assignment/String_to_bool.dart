@@ -1,6 +1,7 @@
+
+import 'dart:io';
 void main() {
-  String isStudent = "true";
-  bool result = bool.parse(isStudent);
-  print(result);
-  print(result.runtimeType);
+  print("enter bool : ");
+  String? input = stdin.readLineSync() ;
+   bool convertInput = bool.parse(input!);
 }
