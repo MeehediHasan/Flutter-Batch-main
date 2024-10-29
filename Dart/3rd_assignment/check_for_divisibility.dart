@@ -8,7 +8,7 @@ void main() {
     print("Divisible by 5 only");
   } else if (convertedNumber / 3 == 0) {
     print("Divisible by 3 only");
-  } else if (convertedNumber / 5 == 0 || convertedNumber / 3 == 0) {
+  } else if (convertedNumber / 5 == 0 && convertedNumber / 3 == 0) {
     print("Divisible by both number");
   } else {
     print("Not divisible by either");

@@ -1,5 +1,4 @@
 import 'dart:io';
-
 void main() {
   print("input number : ");
   String? Number = stdin.readLineSync();

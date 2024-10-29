@@ -2,8 +2,8 @@ import 'dart:io';
 
 void main() {
   print("input 1st number : ");
-  String? firstNumber = stdin.readLineSync();
-  int convertFirstNumber = int.parse(firstNumber!);
+  String firstNumber = stdin.readLineSync()!;
+  int convertFirstNumber = int.parse(firstNumber);
   print("input 2nd number : ");
 
   String? secondNumber = stdin.readLineSync();
