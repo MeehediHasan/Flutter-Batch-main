@@ -1,26 +1,26 @@
 import 'dart:io';
 
 void main() {
-  print("input your number : ");
-  String? number = stdin.readLineSync();
-  int convertNumber = int.parse(number!);
-  switch (convertNumber) {
-    case >= 80:
+  print("input a grade : ");
+  String? grade = stdin.readLineSync();
+  double convertedGrade = double.parse(grade!);
+  switch (convertedGrade) {
+    case >= 90:
       print("A+");
       break;
-    case 70:
+    case >= 80:
       print("A");
       break;
-    case 60:
+    case >= 70:
       print("A-");
       break;
-    case 50:
-      print("B");
+    case >= 60:
+      print("b");
       break;
-    case 45:
-      print("D");
+    case >= 50:
+      print("f");
       break;
     default:
-      print("Alas! Failed");
+      print("invalid number");
   }
 }
