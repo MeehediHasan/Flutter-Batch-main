@@ -1,3 +1,5 @@
+//nested loop hole 1st loop ekbar ghurle vitorer
+// loop tar condition false na hoya porjonto ghurtei thakbe
 void main()
 {
   int i, j;
